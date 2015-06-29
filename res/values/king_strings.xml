@@ -23,11 +23,9 @@
     <string name="animation_title">Animations</string>
     <string name="button_settings">Buttons</string>
     <string name="icons">Icons</string>
+    <string name="king_misc_title">Miscellaneous</string>
+    <string name="king_lockscreen_title">Lock Screen</string>
     <!-- *********************** End King Configurations *********************** -->
-
-    <!-- *********************** General Strings *********************** -->
-    <string name="king_lockscreen_title"><b>Lock Screen</b></string>
-    <!-- *********************** End General Strings *********************** -->
 
     <!-- *********************** Volume Steps *********************** -->
     <string name="volume_steps_title">Volume steps</string>
@@ -51,5 +49,12 @@
     <string name="bluetooth_battery_title">Show Bluetooth battery status</string>
     <string name="bluetooth_battery_summary">Show battery status for the currently connected bluetooth device, if availible.</string>
     <!-- *********************** End Bluetooth status *********************** -->
-    
+
+    <!-- *********************** Selinux Switch *********************** -->
+    <string name="selinux_switch_title">Selinux Switch options</string>
+    <string name="selinux_switch_summary">SELinux is a set of kernel modifications and user-space tools. Changing modes can cause unwanted effects. Use at your own risk</string>
+    <string name="selinux_title">Selinux Mode</string>
+    <string name="selinux_permissive_title">Permissive</string>
+    <string name="selinux_enforcing_title">Enforcing</string>
+    <!-- *********************** End Selinux Switch *********************** -->
 </resources>
