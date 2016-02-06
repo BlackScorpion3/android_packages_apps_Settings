@@ -57,4 +57,10 @@
     <string name="selinux_permissive_title">Permissive</string>
     <string name="selinux_enforcing_title">Enforcing</string>
     <!-- *********************** End Selinux Switch *********************** -->
+    
+    <!-- *********************** Hide Lockscreen clock & date *********************** -->
+    <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
+    <string name="hide_lockscreen_date_title">Show lockscreen date</string>
+    <!-- *********************** End Hide Lockscreen clock & date *********************** -->
+    
 </resources>
