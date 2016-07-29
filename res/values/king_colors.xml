@@ -50,10 +50,10 @@
 
     <color name="action_picker_fab_background">@color/theme_accent</color>
 
-	<color name="theme_accent">#ff009688</color>
-
  <!-- Colors of the help screen -->
     <color name="color_picker_help_screen_background">#e0000000</color>
     <color name="color_picker_help_summary_text_color">#b3ffffff</color>
-    
+
+	<color name="theme_accent">#ff009688</color>
+	
 </resources>

@@ -145,16 +145,36 @@
     <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
     <!-- *********************** End Battery Bar *********************** -->
 
-  <!-- Color picker -->
-     <string name="dialog_color_picker_title">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
-    <string name="palette_darkkat_title">Benzo</string>
+    <!-- *********************** Color picker *********************** -->
+    <string name="color_picker_fragment_title">Color Picker</string>
+    <string name="apply_color_title">Apply color</string>
+    <string name="edit_hex_title">HEX value</string>
+    <string name="palette_darkkat_title">King</string>
     <string name="palette_material_title">Material</string>
     <string name="palette_rgb_title">RGB</string>
+    <string name="reset_color_title">Reset</string>
     <string name="reset_android_title">Android default</string>
-    <string name="reset_darkkat_title">DarkKat default</string>
-    
-    <!-- Color Picker -->
+    <string name="reset_darkkat_title">Customized palette</string>
+    <string name="default_string">Default</string>
+    <string name="favorites_title">Favorites</string>
+    <string name="hide_favorites_title">Hide favorites</string>
+    <string name="show_favorites_title">Show favorites</string>
+    <string name="hide_help_title">Hide help</string>
+    <string name="show_help_title">Show help</string>
+    <string name="empty_title">Empty</string>
+	
+    <!-- Color picker -->
+    <string name="color_picker_fragment_title">Color Picker</string>
+    <string name="dialog_color_picker_title">Color Picker</string>
+    <string name="apply_color_title">Apply color</string>
+    <string name="edit_hex_title">HEX value</string>
+    <string name="palette_darkkat_title">Resurrection</string>
+    <string name="palette_material_title">Material</string>
+    <string name="palette_rgb_title">RGB</string>
+    <string name="reset_color_title">Reset</string>
+    <string name="reset_android_title">Android default</string>
+    <string name="reset_darkkat_title">Customized palette</string>
+    <string name="default_string">Default</string>
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
@@ -163,19 +183,6 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
-
-	<!-- Color picker -->
-	<string name="color_picker_fragment_title">Color Picker</string>
-    <string name="apply_color_title">Apply color</string>
-	<string name="edit_hex_title">HEX value</string>
-	<string name="palette_darkkat_title">Resurrection</string>
-	<string name="palette_material_title">Material</string>
-	<string name="palette_rgb_title">RGB</string>
-	<string name="reset_color_title">Reset</string>
-	<string name="reset_android_title">Android default</string>
-	<string name="reset_darkkat_title">Customized palette</string>
-	<string name="default_string">Default</string>
-    
     <string name="color_picker_help_screen_title">Color Picker help</string>
     <string name="color_picker_help_ab_title">Action bar:</string>
     <string name="color_picker_help_ab_back_title">Back button:</string>
@@ -202,6 +209,7 @@
     <string name="color_picker_help_palette_title">Palette:\n(DarkKat, Material and RGB)</string>
     <string name="color_picker_help_palette_summary">All palette colors have a fixed value.\nA click sets the favorite color as new color, without applying the new color.</string>
     <string name="color_picker_help_do_not_show_title">Don\'t show again</string>
-<string name="color_picker_help_button_ok_title">OK</string>
+    <string name="color_picker_help_button_ok_title">OK</string>
+    <!-- *********************** End Color picker *********************** -->
 
 </resources>
