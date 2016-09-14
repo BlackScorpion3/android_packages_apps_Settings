@@ -16,6 +16,11 @@
     <string name="king_mod_version">King Rom</string>
     <string name="build_date">Build Date</string>
     <string name="king_title">King Configurations</string>
+    <string name="king_statusbar_title">Status Bar</string>
+    <string name="king_notification_panel_title">Notification Panel</string>
+    <string name="notification_drawer_title">Notification Drawer</string>
+    <string name="recents_settings_title">Recents Settings</string>
+    <string name="animation_title">Animations</string>
 <!-- *********************** End King Configurations *********************** -->
 
 <!-- *********************** General Strings *********************** -->
