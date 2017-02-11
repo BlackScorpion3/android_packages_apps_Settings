@@ -62,5 +62,25 @@
     <string name="hide_lockscreen_clock_title">Show lockscreen clock</string>
     <string name="hide_lockscreen_date_title">Show lockscreen date</string>
     <!-- *********************** End Hide Lockscreen clock & date *********************** -->
+
+    <!-- *********************** Keyguard Statusbar Clock *********************** -->
+    <string name="keyguard_statusbar_clock_title">Keyguard statusbar clock</string>
+    <string name="keyguard_statusbar_clock_summary">Enables the statusbar clock in the keyguard on the left side</string>
+    <!-- *********************** End Keyguard Statusbar Clock *********************** -->
+
+    <!-- *********************** Power menu on Secure Lockscreen *********************** -->
+    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
+    <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+    <!-- *********************** End Power menu on Secure Lockscreen *********************** -->
+
+    <!-- *********************** Magisk Manager *********************** -->
+    <string name="magisk_title">Magisk Manager</string>
+    <string name="magisk_summary">Root management</string>
+    <!-- *********************** End Magisk Manager *********************** -->
     
+    <!-- *********************** Substratum dashboard tile title *********************** -->
+    <string name="themes_title">Themes</string>
+    <string name="themes_dashboard_summary">Manage your themes</string>
+    <!-- *********************** End substratum dashboard tile title *********************** -->
+
 </resources>
