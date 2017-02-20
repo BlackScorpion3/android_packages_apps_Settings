@@ -220,6 +220,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 getPreferenceScreen().removePreference(pref);
             }
         }
+       
         // Remove regulatory labels if no activity present to handle intent.
         removePreferenceIfActivityMissing(
                 KEY_REGULATORY_INFO, Settings.ACTION_SHOW_REGULATORY_INFO);

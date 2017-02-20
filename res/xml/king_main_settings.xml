@@ -10,16 +10,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<!-- *********************** King Configurations *********************** -->
-    <string name="king_mod_version">King Rom</string>
-    <string name="build_date">Build Date</string>
-    <string name="king_title">King Configurations</string>
-<!-- *********************** End King Configurations *********************** -->
+<PreferenceScreen
 
-<!-- *********************** General Strings *********************** -->
-    <string name="king_lockscreen_title"><b>Lock Screen</b></string>
-<!-- *********************** End General Strings *********************** -->
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/king_title">
 
-</resources>
+</PreferenceScreen>
