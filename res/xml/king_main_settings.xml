@@ -48,11 +48,11 @@
            android:icon="@drawable/king_recents_icon" />
 
     <!-- Animation Settings -->
-    <PreferenceScreen
+    <!-- PreferenceScreen
            android:key="animation_settings"
            android:title="@string/animation_title"
            android:fragment="com.android.settings.king.animation.AnimationSettings" 
            android:icon="@drawable/king_animations_icon"
-            />
+            / -->
 
 </PreferenceScreen>
