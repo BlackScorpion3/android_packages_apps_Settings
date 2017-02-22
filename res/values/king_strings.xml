@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<!-- *********************** King Configurations *********************** -->
+    <!-- *********************** King Configurations *********************** -->
     <string name="king_mod_version">King Rom</string>
     <string name="build_date">Build Date</string>
     <string name="king_title">King Configurations</string>
@@ -21,10 +21,29 @@
     <string name="notification_drawer_title">Notification Drawer</string>
     <string name="recents_settings_title">Recents Settings</string>
     <string name="animation_title">Animations</string>
-<!-- *********************** End King Configurations *********************** -->
+    <string name="button_settings">Buttons</string>
+    <!-- *********************** End King Configurations *********************** -->
 
-<!-- *********************** General Strings *********************** -->
+    <!-- *********************** General Strings *********************** -->
     <string name="king_lockscreen_title"><b>Lock Screen</b></string>
-<!-- *********************** End General Strings *********************** -->
+    <!-- *********************** End General Strings *********************** -->
+
+    <!-- *********************** Volume Steps *********************** -->
+    <string name="volume_steps_title">Volume steps</string>
+    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
+    <string name="volume_steps_music_title">Volume steps: Music</string>
+    <string name="volume_steps_notification_title">Volume steps: Notification</string>
+    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
+    <string name="volume_steps_system_title">Volume steps: System</string>
+    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
+    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+    <!-- *********************** End Volume Steps *********************** -->
 
 </resources>

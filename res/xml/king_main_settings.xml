@@ -17,6 +17,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/king_title">
 
+    <!-- Button Settings -->
+    <PreferenceScreen
+            android:key="button_settings"
+            android:title="@string/button_settings"
+            android:fragment="com.android.settings.king.ButtonSettings" 
+            android:icon="@drawable/king_buttons_icon"
+            />
+
      <PreferenceScreen
             android:id="@+id/status_bar_settings"
             android:title="@string/king_statusbar_title"
