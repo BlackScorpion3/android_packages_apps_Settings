@@ -112,4 +112,7 @@
     <string name="lock_clock_font_medium_italic">Medium Italic</string>
     <!-- *********************** End Lock Clock Fonts *********************** -->
 
+    <string name="qs_wifi_easy_toggle_title">WiFi easy toggle</string>
+    <string name="qs_wifi_easy_toggle_summary">Makes it so one click will turn WiFi on or off instead of taking you to settings</string>
+
 </resources>
