@@ -62,6 +62,12 @@
            android:title="@string/recents_settings_title"
            android:icon="@drawable/king_recents_icon" / -->
 
+    <!-- QS Panel -->
+    <PreferenceScreen
+            android:id="@+id/qs_customizations"
+            android:title="@string/king_qs_title"
+            android:fragment="com.android.settings.king.QsPanel" 
+	    android:icon="@drawable/king_quick_settings_icon" />
     
      <!-- Status Bar -->
      <PreferenceScreen
