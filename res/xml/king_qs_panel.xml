@@ -20,8 +20,11 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/king_qs_title">
 
-      <PreferenceCategory
-        android:title="@string/qs_tiles">
+    <com.android.settings.king.Preferences.SystemSettingSwitchPreference
+       	 android:key="qs_show_brightness_icon"
+         android:title="@string/brightness_icon_title"
+         android:summary="@string/brightness_icon_summary"
+         android:defaultValue="false"/>
 
     <com.android.settings.king.Preferences.SystemSettingSwitchPreference
          android:key="qs_wifi_easy_toggle"
@@ -29,12 +32,11 @@
          android:summary="@string/qs_wifi_easy_toggle_summary"
          android:defaultValue="false" />
 
-    <com.android.settings.king.SecureSettingSwitchPreference   
+    <com.android.settings.king.Preferences.SystemSettingSwitchPreference   
         android:key="qs_bt_easy_toggle"
         android:title="@string/qs_bt_easy_toggle_title"
         android:summary="@string/qs_bt_easy_toggle_summary"
         android:defaultValue="false" />
 
-     </PreferenceCategory>
 
 </PreferenceScreen>

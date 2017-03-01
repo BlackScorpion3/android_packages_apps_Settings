@@ -11,17 +11,31 @@
 */
 package com.android.settings.king;
 
+import android.app.Activity;
+import android.content.Context;
+import android.content.ContentResolver;
+import android.content.res.Resources;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.PreferenceActivity;
-import android.preference.PreferenceCategory;
-import android.preference.PreferenceScreen;
-
+import android.os.SystemProperties;
+import android.os.UserHandle;
+import android.app.Fragment;
+import android.support.v7.preference.PreferenceScreen;
+import android.support.v7.preference.ListPreference;
+import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
+import android.provider.Settings;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
+
+import cyanogenmod.providers.CMSettings;
 
 public class QsPanel extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -39,8 +53,9 @@ public class QsPanel extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.king_qs_panel);
     }
 
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-
-        return true;
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+		return false;
     }
+
+
 }
