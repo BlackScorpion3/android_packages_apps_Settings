@@ -27,6 +27,11 @@
         	android:defaultValue="true" />
 
     	<com.android.settings.king.Preferences.SystemSettingSwitchPreference
+        	android:key="show_lockscreen_alarm"
+        	android:title="@string/lockscreen_alarm_title"
+        	android:defaultValue="true" />
+
+        <com.android.settings.king.Preferences.SystemSettingSwitchPreference
         	android:key="keyguard_show_clock"
         	android:title="@string/keyguard_statusbar_clock_title"
         	android:summary="@string/keyguard_statusbar_clock_summary" />
