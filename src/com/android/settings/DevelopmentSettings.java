@@ -816,7 +816,6 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             updateColorTemperature();
         }
         updateBluetoothDisableAbsVolumeOptions();
-<<<<<<< HEAD
         updateRootAccessOptions();
         updateAdbOverNetwork();
         updateUpdateRecoveryOptions();
