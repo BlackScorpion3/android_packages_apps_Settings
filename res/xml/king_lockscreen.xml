@@ -31,17 +31,11 @@
         	android:title="@string/lockscreen_alarm_title"
         	android:defaultValue="true" />
 
-        <com.android.settings.king.Preferences.SystemSettingSwitchPreference
-        	android:key="keyguard_show_clock"
-        	android:title="@string/keyguard_statusbar_clock_title"
-        	android:summary="@string/keyguard_statusbar_clock_summary" />
-       
    	    <PreferenceScreen
        		android:key="lock_clock_fonts"
         	android:title="@string/lock_clock_font_title"
        	 	android:summary="@string/lock_clock_font_summary"
         	android:fragment="com.android.settings.king.fragments.LockClockFonts" />
-
-
+       
 </PreferenceScreen>
 
