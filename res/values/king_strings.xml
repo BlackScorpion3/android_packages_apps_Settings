@@ -132,18 +132,6 @@
     <string name="qs_bt_easy_toggle_summary">Makes it so one click will turn Bluetooth on or off instead of taking you to settings</string>
     <!-- *********************** End BT easy toggle *********************** -->
 
-    <!-- *********************** Battery Bar *********************** -->
-    <string name="battery_icon">Battery icon style</string>
-    <string name="battery_not_title">Battery icon in notifications</string>
-    <string name="battery_not_summary">Battery icon will show up where the clear all button shows up</string>
-    <string name="battery_bar_location">Battery bar location</string>
-    <string name="battery_bar">Battery Bar</string>
-    <string name="battery_bar_summary">Battery bar position and color customization</string>
-    <string name="battery_bar_style_title">Battery bar style</string>
-    <string name="battery_bar_thickness_title">Battery bar thickness</string>
-    <string name="battery_bar_animate_title">Charging animation</string>
-    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-    <!-- *********************** End Battery Bar *********************** -->
 
     <!-- *********************** Color picker *********************** -->
     <string name="color_picker_fragment_title">Color Picker</string>
