@@ -200,4 +200,9 @@
     <string name="color_picker_help_button_ok_title">OK</string>
     <!-- *********************** End Color picker *********************** -->
 
+    <!-- *********************** Toast Icons *********************** -->
+    <string name="toast_icon_title">Toast icon</string>
+    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
+    <!-- *********************** End Toast Icons *********************** -->
+    
 </resources>

@@ -33,4 +33,10 @@
             android:title="@string/selinux_title"
             android:defaultValue="false" />
 
+     <com.android.settings.king.Preferences.SystemSettingSwitchPreference
+            android:key="toast_icon"
+            android:title="@string/toast_icon_title"
+            android:summary="@string/toast_icon_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
