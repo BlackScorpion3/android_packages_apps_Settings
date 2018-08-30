@@ -140,6 +140,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.nest.settings.ScorpionNest;
 import com.nest.settings.fragments.HeadsUpSettings;
+import com.nest.settings.moresettings.OmniJawsSettings;
 
 public class SettingsGateway {
 
@@ -267,7 +268,8 @@ public class SettingsGateway {
             ToggleBackupSettingFragment.class.getName(),
             PreviouslyConnectedDeviceDashboardFragment.class.getName(),
             ScorpionNest.class.getName(),
-            HeadsUpSettings.class.getName()
+            HeadsUpSettings.class.getName(),
+            OmniJawsSettings.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
