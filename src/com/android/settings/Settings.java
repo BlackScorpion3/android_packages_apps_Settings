@@ -169,5 +169,6 @@ public class Settings extends SettingsActivity {
     //Scorpion Additions
     public static class ScorpionNestActivity extends SettingsActivity {}
     public static class HeadsUpSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
 
 }
